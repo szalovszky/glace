@@ -1,0 +1,21 @@
+{
+    "name": "glace",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "tsc && node ./dist",
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "szalovszky",
+    "license": "GPL-3.0-only",
+    "dependencies": {
+        "@octokit/core": "^4.2.0",
+        "dotenv": "^16.0.3",
+        "typescript": "^4.9.5"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.18"
+    }
+}
